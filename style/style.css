@@ -34,9 +34,11 @@ a{
 
 h1{
     font-size: 48px;
-    font-weight: 500;
+    font-weight: 900;
     color: #F9FAF8;
-    max-width: 300px;
+    max-width: 330px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .first-section{
@@ -45,23 +47,38 @@ h1{
     align-items: center;
     gap: 80px;
     background: #1F2937;
-    padding-bottom: 120px;
+    padding-bottom: 130px;
+}
+
+.first-section a{
+    font-weight: 800;
+    background: #3882F6;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px 30px;
 }
 
 
 .left-side p{
-    max-width: 400px;
+    margin-top: 0;
+    padding-top: 0;
+    max-width: 460px;
     font-size: 18px;
     color: #E5E7EB;
 }
 
 
 .right-side section{
-    width: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 470px;
     height: 230px;
     background: gray;
     padding: 0;
     margin: 0;
+    margin-top: 28px;
+   color: white;
 }
 
 
@@ -164,6 +181,7 @@ h1{
 
 .fourth-section .right-side a{
     font-weight: 800;
+    font-size: 15px;
     border: 2px solid #E5E7EB;
     border-radius: 5px;
     padding: 5px 30px;
